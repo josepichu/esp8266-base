@@ -1,0 +1,43 @@
+.page-content {
+    padding-top: 20px;
+    text-align: center;
+    height: 300px;
+}
+
+.mdl-card__title {
+    background-color: #2196f3;
+    color: white;
+}
+
+.mdl-card__title-text {
+    margin: 0 auto;
+}
+
+.mdl-card__title-text .title {
+    margin-left: 5px;
+}
+
+.mdl-card__supporting-text1 {
+    font-size: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.red {
+    color: RED
+}
+
+.green {
+    color: green
+}
+
+.orange {
+    color: orange
+}
+
+.mdl-card__supporting-text1 #sensor_info {
+    font-size: 80px;
+    height: 100px;
+}

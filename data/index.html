@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <title>[ ESP8266 - 1] Water Level</title>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <link rel="stylesheet" href="assets/v/google-fonts.css">
+    <link rel="stylesheet" href="assets/v/material.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/material-design-lite@1.3.0/dist/material.indigo-pink.min.css">-->
+
+    <!-- Always shows a header, even in smaller screens. -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <!-- Title -->
+                <span class="mdl-layout-title">Water Level</span>
+                <!-- Add spacer, to align navigation to the right -->
+                <div class="mdl-layout-spacer"></div>
+                <!-- Navigation. We hide it in small screens. -->
+                <nav class="mdl-navigation mdl-layout--large-screen-only">
+                    <!-- <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a>
+                    <a class="mdl-navigation__link" href="">Link</a> -->
+                </nav>
+            </div>
+        </header>
+        <div class="mdl-layout__drawer">
+            <span class="mdl-layout-title">[ ESP8266 - 1] Water Level</span>
+            <nav class="mdl-navigation">
+                <!-- <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a>
+                <a class="mdl-navigation__link" href="">Link</a> -->
+            </nav>
+        </div>
+        <main class="mdl-layout__content">
+            <div class="page-content">
+
+                <div class="demo-card-wide mdl-card mdl-shadow--2dp" style="margin: 0 auto;">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text"><span class="title">Water Level</span></h2>
+                    </div>
+                    <div class="mdl-card__supporting-text1">
+
+                        <span id="sensor_info">83%</span>
+
+
+                    </div>
+                    <div class="mdl-card__actions mdl-card--border">
+                        <a id="actualizar" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+              Actualizar
+            </a>
+                    </div>
+                </div>
+
+                <div class="demo-card-wide mdl-card mdl-shadow--2dp" style="margin: 40px auto;">
+                    <div class="mdl-card__title">
+                        <h2 class="mdl-card__title-text"><span class="title">Device Info</span></h2>
+                    </div>
+                    <div class="mdl-card__supporting-text">
+
+                        <textarea rows="15" cols="35" id="log"></textarea>
+
+
+                    </div>
+                </div>
+
+
+
+            </div>
+        </main>
+    </div>
+
+    <script src="assets/v/jquery-3.4.1.min.js"></script>
+    <script src="assets/v/material.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
